@@ -6,11 +6,6 @@
 }
 
 /* Typography */
-h2,
-h3,
-hgroup > :last-child {
-  font-weight: 200;
-}
 
 small {
   color: var(--muted-color);
@@ -19,7 +14,7 @@ small {
 /* Header */
 .hero {
   background-color: #394046;
-  background-image: url("assets/sascha-eremin-DNQ-M93tHmA-unsplash-3000x1000.jpg");
+  background-image: url("./Imagenes/Fondo4.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -27,10 +22,12 @@ small {
 header {
   padding: var(--spacing-company) 0;
 }
-
-header hgroup > :last-child {
-  color: var(--h3-color);
+header.container{
+text-align: center;
+  height: 30rem;
 }
+
+
 
 header hgroup {
   margin-bottom: var(--spacing-company);
@@ -63,3 +60,23 @@ aside p {
   margin-bottom: var(--spacing-company);
   line-height: 1.25;
 }
+
+.logos{
+  height: 1rem;
+  }
+
+  .logo-vega{
+    display: flex;
+  }
+
+  .texto-footer{
+    margin-bottom: 0;
+  }
+.footer-custom{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .container-custom{
+    padding-bottom: 0;
+  }
