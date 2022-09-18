@@ -13,7 +13,7 @@ small {
 
 /* Header */
 .hero {
-  background-color: #394046;
+  background-color: #d9e0e6;
   background-position: center;
   background-size: cover;
 }
@@ -29,6 +29,7 @@ header div h1 {
 .pag-princ{
 text-align: center;
   height: 30rem;
+  padding-top: 10rem;
 }
 
 
@@ -87,4 +88,11 @@ aside p {
 
 :root{
   --font-family:'Crimson Pro', serif;
+}
+.text-princ{
+  font-size: 80px;
+}
+
+.subtext-princ{
+font-size: 30px;
 }
