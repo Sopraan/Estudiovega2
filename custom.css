@@ -50,7 +50,33 @@ summary[role="link"].contrast:is([aria-current],:hover,:active,:focus) {
     grid-column-gap: var(--spacing-company);
     grid-template-columns: auto 25%;
   }
+
+  nav.mobile-nav{
+    display:none;
+  }
 }
+
+/* Main */
+
+/* MOBILE*/
+@media (max-width: 992px) {
+  main .grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: auto 25%;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: flex;
+  }
+  .wpp-resp{
+    margin-left: 0.5rem;
+  }
+}
+
 
 form.grid {
   grid-row-gap: 0;
@@ -94,5 +120,5 @@ aside p {
 }
 
 .subtext-princ{
-font-size: 30px;
+font-size: 40px;
 }
